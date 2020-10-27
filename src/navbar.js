@@ -2,7 +2,7 @@ const Navbar = () => {
     return (
         <nav class="navbar navbar-expand-lg navbar-light bg-warning">
             <div class="container-fluid col-8">
-                <a class="navbar-brand" href="/DigitalMusicStore">
+                <a class="navbar-brand" href="/DigitalMusicStore/public">
                     <i class="fas fa-music mr-2"></i>Digital Music Store
                 </a>
                 <button
