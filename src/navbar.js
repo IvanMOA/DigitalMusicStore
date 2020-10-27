@@ -2,7 +2,7 @@ const Navbar = () => {
     return (
         <nav class="navbar navbar-expand-lg navbar-light bg-warning">
             <div class="container-fluid col-8">
-                <a class="navbar-brand" href="/public">
+                <a class="navbar-brand" href="/DigitalMusicStore">
                     <i class="fas fa-music mr-2"></i>Digital Music Store
                 </a>
                 <button
@@ -22,7 +22,7 @@ const Navbar = () => {
                 >
                     <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="/public">
+                            <a class="nav-link" href="/DigitalMusicStore/public">
                                 Home
                             </a>
                         </li>
