@@ -1,91 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+            integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://kit.fontawesome.com/f21cb0d568.js"
+            crossorigin="anonymous"
+        ></script>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
-        integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous" />
-    <script src="https://kit.fontawesome.com/f21cb0d568.js" crossorigin="anonymous"></script>
+        <title>Home</title>
+    </head>
 
-    <title>Hello, world!</title>
-</head>
+    <body>
+        <!-- Navbar -->
+        <div class="navbarContainer"></div>
 
-<body>
-    <!-- Navbar -->
-    <div class="navbarContainer"></div>
+        <div class="container mt-4 col-12">
+            <!-- Table with songs  -->
+            <table
+                class="table w-50 ml-auto mr-auto table-bordered border-warning"
+            >
+                <thead>
+                    <tr>
+                        <th colspan="2">Top songs</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Song</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Odoru</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Beliver</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td colspan="2">Paradise</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td colspan="2">Boss of me</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td colspan="2">Reflections</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td colspan="2">Memories</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td colspan="2">Hollow Knight OST</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7</th>
+                        <td colspan="2">Paradise</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">8</th>
+                        <td colspan="2">Glass sky</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">9</th>
+                        <td colspan="2">Suite</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">10</th>
+                        <td colspan="2">Sparkle</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"
+            integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD"
+            crossorigin="anonymous"
+        ></script>
 
-    <div class="container mt-4 col-12">
-        <!-- Table with songs  -->
-        <table class="table w-50 ml-auto mr-auto table-bordered border-warning">
-            <thead>
-                <tr>
-                    <th colspan="2">Top songs</th>
-                </tr>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Song</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Odoru</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Beliver</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td colspan="2">Paradise</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td colspan="2">Boss of me</td>
-                </tr>
-                <tr>
-                    <th scope="row">4</th>
-                    <td colspan="2">Reflections</td>
-                </tr>
-                <tr>
-                    <th scope="row">5</th>
-                    <td colspan="2">Memories</td>
-                </tr>
-                <tr>
-                    <th scope="row">6</th>
-                    <td colspan="2">Hollow Knight OST</td>
-                </tr>
-                <tr>
-                    <th scope="row">7</th>
-                    <td colspan="2">Paradise</td>
-                </tr>
-                <tr>
-                    <th scope="row">8</th>
-                    <td colspan="2">Glass sky</td>
-                </tr>
-                <tr>
-                    <th scope="row">9</th>
-                    <td colspan="2">Suite</td>
-                </tr>
-                <tr>
-                    <th scope="row">10</th>
-                    <td colspan="2">Sparkle</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"
-        integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD"
-        crossorigin="anonymous"></script>
-
-    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
-    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-    <script src="../src/navbar.js" type="text/babel"></script>
-</body>
-
+        <script
+            crossorigin
+            src="https://unpkg.com/react@17/umd/react.development.js"
+        ></script>
+        <script
+            crossorigin
+            src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+        ></script>
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+        <script src="../src/navbar.js" type="text/babel"></script>
+    </body>
 </html>
