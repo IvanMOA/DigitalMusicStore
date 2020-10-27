@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+            integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://kit.fontawesome.com/f21cb0d568.js"
+            crossorigin="anonymous"
+        ></script>
+
+        <title>Purchase</title>
+    </head>
+
+    <body>
+        <!-- Navbar -->
+        <div class="navbarContainer"></div>
+
+        <div class="container mt-4 col-12 col-md-4">
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <a
+                        class="text-dark nav-link active"
+                        id="nav-home-tab"
+                        data-toggle="tab"
+                        href="#nav-home"
+                        role="tab"
+                        aria-controls="nav-home"
+                        aria-selected="true"
+                        >Register</a
+                    >
+                    <a
+                        class="text-dark nav-link"
+                        id="nav-profile-tab"
+                        data-toggle="tab"
+                        href="#nav-profile"
+                        role="tab"
+                        aria-controls="nav-profile"
+                        aria-selected="false"
+                        >Login</a
+                    >
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <div
+                    class="tab-pane fade show active"
+                    id="nav-home"
+                    role="tabpanel"
+                    aria-labelledby="nav-home-tab"
+                >
+                    <div class="mb-3 mt-3">
+                        <label for="exampleInputEmail1" class="form-label"
+                            >Email address</label
+                        >
+                        <input
+                            type="email"
+                            class="form-control"
+                            id="exampleInputEmail1"
+                            aria-describedby="emailHelp"
+                        />
+                        <div id="emailHelp" class="form-text">
+                            We'll never share your email with anyone else.
+                        </div>
+                    </div>
+                    <label for="inputPassword5" class="form-label"
+                        >Password</label
+                    >
+                    <input
+                        type="password"
+                        id="inputPassword5"
+                        class="form-control"
+                        aria-describedby="passwordHelpBlock"
+                    />
+                    <div id="passwordHelpBlock" class="form-text">
+                        Your password must be 8-20 characters long
+                    </div>
+                    <button type="submit" class="btn mt-3 btn-warning">
+                        Register
+                    </button>
+                </div>
+                <div
+                    class="tab-pane fade"
+                    id="nav-profile"
+                    role="tabpanel"
+                    aria-labelledby="nav-profile-tab"
+                >
+                    <div
+                        class="tab-pane fade show active"
+                        id="nav-home"
+                        role="tabpanel"
+                        aria-labelledby="nav-home-tab"
+                    >
+                        <div class="mb-3 mt-3">
+                            <label for="exampleInputEmail1" class="form-label"
+                                >Email address</label
+                            >
+                            <input
+                                type="email"
+                                class="form-control"
+                                id="exampleInputEmail1"
+                                aria-describedby="emailHelp"
+                            />
+                            <div id="emailHelp" class="form-text">
+                                We'll never share your email with anyone else.
+                            </div>
+                        </div>
+                        <label for="inputPassword5" class="form-label"
+                            >Password</label
+                        >
+                        <input
+                            type="password"
+                            id="inputPassword5"
+                            class="form-control"
+                            aria-describedby="passwordHelpBlock"
+                        />
+                        <div id="passwordHelpBlock" class="form-text">
+                            Your password must be 8-20 characters long
+                        </div>
+                        <button type="submit" class="btn mt-3 btn-warning">
+                            Login
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"
+            integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            crossorigin
+            src="https://unpkg.com/react@17/umd/react.development.js"
+        ></script>
+        <script
+            crossorigin
+            src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+        ></script>
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+        <script src="../src/navbar.js" type="text/babel"></script>
+    </body>
+</html>
