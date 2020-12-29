@@ -1,1 +1,1 @@
-Simple HTML / CSS project for a class.
+Simple HTML / CSS project for a course.
